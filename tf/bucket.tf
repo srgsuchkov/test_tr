@@ -20,7 +20,7 @@ resource "aws_iam_policy" "bucket_policy" {
   description = "Allow "
 
   policy = jsonencode({
-    "Version" : "2012-10-17",
+    "Version" : "2023-05-01",
     "Statement" : [
       {
         "Sid" : "VisualEditor0",
